@@ -1,6 +1,6 @@
-package com.back.domain.article.repository;
+package com.back.githubactiontest.domain.article.repository;
 
-import com.back.domain.article.entity.Article;
+import com.back.githubactiontest.domain.article.entity.Article;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

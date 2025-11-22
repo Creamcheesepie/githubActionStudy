@@ -1,4 +1,4 @@
-package com.back.domain.article.entity;
+package com.back.githubactiontest.domain.article.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -19,5 +19,8 @@ public class Article {
 
     private String content;
 
-
+    public Article(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }
