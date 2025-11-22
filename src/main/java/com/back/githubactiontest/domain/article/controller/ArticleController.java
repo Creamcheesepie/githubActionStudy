@@ -22,12 +22,12 @@ public class ArticleController {
     public String listArticle(Model model){
         List<Article> articles = articleService.getAllArticles();
         model.addAttribute("articleList",articles);
-        return "/article/list";
+        return "article/list";
     }
 
     @GetMapping("/write")
     public String writeArticle(Model model) {
-        return "/article/write";
+        return "article/write";
     }
 
     @PostMapping("/write")
