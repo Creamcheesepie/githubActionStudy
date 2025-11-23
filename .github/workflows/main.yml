@@ -5,9 +5,9 @@ on:
       - main
 jobs:
   hello1:
-    runs-on: myPi
+    runs-on: ubuntu-latest
     steps:
       -name: sayHello
-        run: echo "Hi"
+        run: echo "Hi" 
       -name: sayMyName
         run: echo "${{ github.actor }}"
