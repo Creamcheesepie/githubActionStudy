@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: sayHello
-        run: echo "Hi" 
+        run: echo "Hello" 
       -name: sayMyName
         run: echo "${{ github.actor }}"
