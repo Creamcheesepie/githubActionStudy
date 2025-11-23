@@ -1,0 +1,13 @@
+name: work-1
+on:
+  push:
+    branched:
+      - main
+jobs:
+  hello1:
+    runs-on: myPi
+    steps:
+      -name: sayHello
+        run: echo "Hi"
+      -name: sayMyName
+        run: echo "${{ github.actor }}"
